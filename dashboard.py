@@ -12,7 +12,7 @@ st.title('Dashboard for "auto_mpg" Dataset')
 
 def load_data():
     """Utility function for loading data"""
-    df = pd.read_csv('\data\clean_auto_mpg.csv')
+    df = pd.read_csv('/data/clean_auto_mpg.csv')
     return df
 
 # load data
